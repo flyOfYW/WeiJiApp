@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE0D25E2127FE53009E9C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE0D25D2127FE53009E9C70 /* AppDelegate.m */; };
+		DAE0D2612127FE53009E9C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE0D2602127FE53009E9C70 /* ViewController.m */; };
+		DAE0D2662127FE53009E9C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE0D2652127FE53009E9C70 /* Assets.xcassets */; };
+		DAE0D2692127FE53009E9C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE0D2672127FE53009E9C70 /* LaunchScreen.storyboard */; };
+		DAE0D26C2127FE53009E9C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE0D26B2127FE53009E9C70 /* main.m */; };
+		DAE0D2762127FE53009E9C70 /* WeiJiAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE0D2752127FE53009E9C70 /* WeiJiAppTests.m */; };
+		DAE0D2812127FE53009E9C70 /* WeiJiAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE0D2802127FE53009E9C70 /* WeiJiAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE0D2722127FE53009E9C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE0D2512127FE52009E9C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE0D2582127FE53009E9C70;
+			remoteInfo = WeiJiApp;
+		};
+		DAE0D27D2127FE53009E9C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE0D2512127FE52009E9C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE0D2582127FE53009E9C70;
+			remoteInfo = WeiJiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAE0D2592127FE53009E9C70 /* WeiJiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiJiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE0D25C2127FE53009E9C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAE0D25D2127FE53009E9C70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAE0D25F2127FE53009E9C70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAE0D2602127FE53009E9C70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAE0D2652127FE53009E9C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAE0D2682127FE53009E9C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAE0D26A2127FE53009E9C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE0D26B2127FE53009E9C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAE0D2712127FE53009E9C70 /* WeiJiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiJiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE0D2752127FE53009E9C70 /* WeiJiAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiJiAppTests.m; sourceTree = "<group>"; };
+		DAE0D2772127FE53009E9C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE0D27C2127FE53009E9C70 /* WeiJiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiJiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE0D2802127FE53009E9C70 /* WeiJiAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiJiAppUITests.m; sourceTree = "<group>"; };
+		DAE0D2822127FE53009E9C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE0D2562127FE53009E9C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE0D26E2127FE53009E9C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE0D2792127FE53009E9C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE0D2502127FE52009E9C70 = {
+			isa = PBXGroup;
+			children = (
+				DAE0D25B2127FE53009E9C70 /* WeiJiApp */,
+				DAE0D2742127FE53009E9C70 /* WeiJiAppTests */,
+				DAE0D27F2127FE53009E9C70 /* WeiJiAppUITests */,
+				DAE0D25A2127FE53009E9C70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE0D25A2127FE53009E9C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0D2592127FE53009E9C70 /* WeiJiApp.app */,
+				DAE0D2712127FE53009E9C70 /* WeiJiAppTests.xctest */,
+				DAE0D27C2127FE53009E9C70 /* WeiJiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE0D25B2127FE53009E9C70 /* WeiJiApp */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0D25C2127FE53009E9C70 /* AppDelegate.h */,
+				DAE0D25D2127FE53009E9C70 /* AppDelegate.m */,
+				DAE0D25F2127FE53009E9C70 /* ViewController.h */,
+				DAE0D2602127FE53009E9C70 /* ViewController.m */,
+				DAE0D2652127FE53009E9C70 /* Assets.xcassets */,
+				DAE0D2672127FE53009E9C70 /* LaunchScreen.storyboard */,
+				DAE0D26A2127FE53009E9C70 /* Info.plist */,
+				DAE0D26B2127FE53009E9C70 /* main.m */,
+			);
+			path = WeiJiApp;
+			sourceTree = "<group>";
+		};
+		DAE0D2742127FE53009E9C70 /* WeiJiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0D2752127FE53009E9C70 /* WeiJiAppTests.m */,
+				DAE0D2772127FE53009E9C70 /* Info.plist */,
+			);
+			path = WeiJiAppTests;
+			sourceTree = "<group>";
+		};
+		DAE0D27F2127FE53009E9C70 /* WeiJiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0D2802127FE53009E9C70 /* WeiJiAppUITests.m */,
+				DAE0D2822127FE53009E9C70 /* Info.plist */,
+			);
+			path = WeiJiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE0D2582127FE53009E9C70 /* WeiJiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE0D2852127FE53009E9C70 /* Build configuration list for PBXNativeTarget "WeiJiApp" */;
+			buildPhases = (
+				DAE0D2552127FE53009E9C70 /* Sources */,
+				DAE0D2562127FE53009E9C70 /* Frameworks */,
+				DAE0D2572127FE53009E9C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeiJiApp;
+			productName = WeiJiApp;
+			productReference = DAE0D2592127FE53009E9C70 /* WeiJiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE0D2702127FE53009E9C70 /* WeiJiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE0D2882127FE53009E9C70 /* Build configuration list for PBXNativeTarget "WeiJiAppTests" */;
+			buildPhases = (
+				DAE0D26D2127FE53009E9C70 /* Sources */,
+				DAE0D26E2127FE53009E9C70 /* Frameworks */,
+				DAE0D26F2127FE53009E9C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE0D2732127FE53009E9C70 /* PBXTargetDependency */,
+			);
+			name = WeiJiAppTests;
+			productName = WeiJiAppTests;
+			productReference = DAE0D2712127FE53009E9C70 /* WeiJiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAE0D27B2127FE53009E9C70 /* WeiJiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE0D28B2127FE53009E9C70 /* Build configuration list for PBXNativeTarget "WeiJiAppUITests" */;
+			buildPhases = (
+				DAE0D2782127FE53009E9C70 /* Sources */,
+				DAE0D2792127FE53009E9C70 /* Frameworks */,
+				DAE0D27A2127FE53009E9C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE0D27E2127FE53009E9C70 /* PBXTargetDependency */,
+			);
+			name = WeiJiAppUITests;
+			productName = WeiJiAppUITests;
+			productReference = DAE0D27C2127FE53009E9C70 /* WeiJiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE0D2512127FE52009E9C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yaowei;
+				TargetAttributes = {
+					DAE0D2582127FE53009E9C70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DAE0D2702127FE53009E9C70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAE0D2582127FE53009E9C70;
+					};
+					DAE0D27B2127FE53009E9C70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAE0D2582127FE53009E9C70;
+					};
+				};
+			};
+			buildConfigurationList = DAE0D2542127FE52009E9C70 /* Build configuration list for PBXProject "WeiJiApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE0D2502127FE52009E9C70;
+			productRefGroup = DAE0D25A2127FE53009E9C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE0D2582127FE53009E9C70 /* WeiJiApp */,
+				DAE0D2702127FE53009E9C70 /* WeiJiAppTests */,
+				DAE0D27B2127FE53009E9C70 /* WeiJiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE0D2572127FE53009E9C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE0D2692127FE53009E9C70 /* LaunchScreen.storyboard in Resources */,
+				DAE0D2662127FE53009E9C70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE0D26F2127FE53009E9C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE0D27A2127FE53009E9C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE0D2552127FE53009E9C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE0D2612127FE53009E9C70 /* ViewController.m in Sources */,
+				DAE0D26C2127FE53009E9C70 /* main.m in Sources */,
+				DAE0D25E2127FE53009E9C70 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE0D26D2127FE53009E9C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE0D2762127FE53009E9C70 /* WeiJiAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE0D2782127FE53009E9C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE0D2812127FE53009E9C70 /* WeiJiAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE0D2732127FE53009E9C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE0D2582127FE53009E9C70 /* WeiJiApp */;
+			targetProxy = DAE0D2722127FE53009E9C70 /* PBXContainerItemProxy */;
+		};
+		DAE0D27E2127FE53009E9C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE0D2582127FE53009E9C70 /* WeiJiApp */;
+			targetProxy = DAE0D27D2127FE53009E9C70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAE0D2672127FE53009E9C70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE0D2682127FE53009E9C70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAE0D2832127FE53009E9C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAE0D2842127FE53009E9C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAE0D2862127FE53009E9C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeiJiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaowei.WeiJiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAE0D2872127FE53009E9C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeiJiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaowei.WeiJiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAE0D2892127FE53009E9C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeiJiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaowei.WeiJiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiJiApp.app/WeiJiApp";
+			};
+			name = Debug;
+		};
+		DAE0D28A2127FE53009E9C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeiJiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaowei.WeiJiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiJiApp.app/WeiJiApp";
+			};
+			name = Release;
+		};
+		DAE0D28C2127FE53009E9C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeiJiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaowei.WeiJiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeiJiApp;
+			};
+			name = Debug;
+		};
+		DAE0D28D2127FE53009E9C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeiJiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaowei.WeiJiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeiJiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE0D2542127FE52009E9C70 /* Build configuration list for PBXProject "WeiJiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE0D2832127FE53009E9C70 /* Debug */,
+				DAE0D2842127FE53009E9C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE0D2852127FE53009E9C70 /* Build configuration list for PBXNativeTarget "WeiJiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE0D2862127FE53009E9C70 /* Debug */,
+				DAE0D2872127FE53009E9C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE0D2882127FE53009E9C70 /* Build configuration list for PBXNativeTarget "WeiJiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE0D2892127FE53009E9C70 /* Debug */,
+				DAE0D28A2127FE53009E9C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE0D28B2127FE53009E9C70 /* Build configuration list for PBXNativeTarget "WeiJiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE0D28C2127FE53009E9C70 /* Debug */,
+				DAE0D28D2127FE53009E9C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAE0D2512127FE52009E9C70 /* Project object */;
+}
